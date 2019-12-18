@@ -1,0 +1,37 @@
+.feature-box{
+	background-color: rgba(255,255, 255, .8);
+	font-size: 1rem;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 0 1.5rem 4rem rgba(0,0,0, 0.15);
+	// margin-left: 50px;
+	// margin-right: 50px;
+	transition: transform .3s;
+	
+
+	&__icon{
+		font-size: 6rem;
+		margin-bottom: .5rem;
+		margin-top: 2rem;
+		display: inline-block;
+		background-image: linear-gradient( to right, rgb(126, 213, 111), rgb(40, 180, 133));
+		-webkit-background-clip: text;
+		color: transparent;
+
+	}
+	&__text{
+		text-align: justify;
+		text-justify: inter-word; 
+		padding: 1rem;
+
+	}
+
+	h3{
+		font-size: 1.8rem;
+		text-transform: uppercase;
+
+	}
+	&:hover{
+		transform: translateY(-1.5rem) scale(1.03);
+	}
+}
